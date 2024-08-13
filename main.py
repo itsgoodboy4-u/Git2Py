@@ -50,3 +50,15 @@ def binary_to_decimal(b):
 # 10. Decimal to Binary
 def decimal_to_binary(n):
     return bin(n)[2:]
+
+if __name__ == "__main__":
+    print("Fibonacci (10 terms):", fibonacci(10))
+    print("Factorial (5):", factorial(5))
+    print("Is 17 prime?", is_prime(17))
+    print("GCD of 48 and 18:", gcd(48, 18))
+    print("LCM of 48 and 18:", lcm(48, 18))
+    print("Is 'radar' a palindrome?", is_palindrome("radar"))
+    print("Sum of digits in 1234:", sum_of_digits(1234))
+    print("Reverse of 'hello':", reverse_string("hello"))
+    print("Binary '1010' to decimal:", binary_to_decimal("1010"))
+    print("Decimal 10 to binary:", decimal_to_binary(10))
